@@ -11,7 +11,11 @@ class rgame:
     def __init__(self, bot):
         self.bot = bot
         self.client = discord.Client()
-        
+    @commands.command()
+    async def levelgamma(self):
+        """Clue Level gamma"""
+
+        await self.bot.say("You once used this technique and now you will have to use it again")        
     @commands.command()
     async def level1(self):
         """Clue Level 1"""
