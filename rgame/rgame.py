@@ -193,7 +193,7 @@ class rgame:
 
         await self.bot.say("The hint is the pic. 1997 is the year of Super Bowl XXXI")
     @commands.command()
-    async def levelXXI(self):
+    async def levelXXXI(self):
         """Clue"""
 
         await self.bot.say("Give no hints except 1, is our order! Sorry ;P")
