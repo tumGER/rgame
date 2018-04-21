@@ -20,6 +20,11 @@ class rgame:
         await self.bot.say("You once used this technique and now you will have to use it again")
 
     @commands.command()
+    async def levelbeta(self):
+        """Clue Level beta"""
+        await self.bot.say("IDK, go bother Umbresp#9711")
+        
+    @commands.command()
     async def level1(self):
         """Clue Level 1"""
 
@@ -261,16 +266,17 @@ class rgame:
 
     @commands.command()
     async def level36(self):
-        """Clue Level 37"""
+        """Clue Level 36"""
 
         await self.bot.say("Idk, ask Zadoc or Wardrich")
 
     @commands.command()
     async def level37(self):
-        """Clue Level 36"""
+        """Clue Level 37"""
 
         await self.bot.say("Idk, ask Zadoc ***HA REUSED TEXT***")
 
+    @commands.command()
     async def level38(self):
         """Clue Level 38"""
 
