@@ -22,7 +22,7 @@ class rgame:
     @commands.command()
     async def levelbeta(self):
         """Clue Level beta"""
-        await self.bot.say("IDK, go bother Umbresp#9711")
+        await self.bot.say("IDK, go bother @Umbresp#9711")
         
     @commands.command()
     async def level1(self):
