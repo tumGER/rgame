@@ -1,8 +1,8 @@
 {
-    "AUTHOR" : "Twentysix",
-    "DESCRIPTION" : "Sends you the message you want when the time is up.\nSee [p]help RemindMe\nExample: [p]remindme 3 days Have sushi with Asu and JennJenn",
-    "SHORT" : "Never forget anything anymore",
+    "AUTHOR" : "tomGER",
+    "DESCRIPTION" : "reddits game subreddit",
+    "SHORT" : "rgame plugin",
     "DISABLED" : false,
-    "NAME" : "RemindMe",
-    "TAGS" : ["reminder", "memo"]
+    "NAME" : "rgame",
+    "TAGS" : ["rgame", "level"]
 }
