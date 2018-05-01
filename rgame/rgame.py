@@ -34,13 +34,13 @@ class rgame:
     async def level2(self):
         """Clue Level 2"""
 
-        await self.bot.say("The clue is in the description of /r/gamelevel3.")
+        await self.bot.say("The clue is in the description of /r/gamelevel3. | What are you supposed to do on Reddit?")
 
     @commands.command()
     async def level3(self):
         """Clue Level 3"""
 
-        await self.bot.say("The clue is in the description of /r/gamelevel4. The clue is We are PRO CSS!")
+        await self.bot.say("The clue is in the description of /r/gamelevel4. The clue is We are PRO CSS! | Use old.reddit.com")
 
     @commands.command()
     async def level4(self):
@@ -64,13 +64,13 @@ class rgame:
     async def level7(self):
         """Clue Level 7"""
 
-        await self.bot.say("A site set up specifically for this site... hosted by the burning heavens.")
+        await self.bot.say("A site set up specifically for this level... hosted by the burning heavens.")
 
     @commands.command()
     async def level8(self):
         """Clue Level 8"""
 
-        await self.bot.say("The clue is in the sidebar, which is, Post a screenshot of a special subreddit.")
+        await self.bot.say("The most special things are out of reach sometimes.")
 
     @commands.command()
     async def level9(self):
@@ -118,7 +118,7 @@ class rgame:
     async def level15(self):
         """Clue Level 15"""
 
-        await self.bot.say("Once buttons it now has become circles - The peace is only the thing between those")
+        await self.bot.say("The date is one number off.")
 
     @commands.command()
     async def level01(self):
@@ -232,10 +232,10 @@ class rgame:
     async def level30(self):
         """Clue Level 30"""
 
-        await self.bot.say("The hint is the pic. 1997 is the year of Super Bowl XXXI")
+        await self.bot.say("What happened in 1997?")
 
     @commands.command()
-    async def levelXXXI(self):
+    async def level31(self):
         """Clue"""
 
         await self.bot.say("Give no hints except 1, is our order! Sorry ;P")
@@ -256,7 +256,7 @@ class rgame:
     async def level34(self):
         """Clue Level 34"""
 
-        await self.bot.say("Keypad on a phone")
+        await self.bot.say("90's kids will remember text like this")
 
     @commands.command()
     async def level35(self):
@@ -268,7 +268,7 @@ class rgame:
     async def level36(self):
         """Clue Level 36"""
 
-        await self.bot.say("Idk, ask Zadoc or Wardrich")
+        await self.bot.say("Idk, ask Zadoc or one of the winners")
 
     @commands.command()
     async def level37(self):
