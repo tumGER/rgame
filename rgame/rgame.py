@@ -245,7 +245,7 @@ class rgame:
     async def level35(self):
         """Clue Level 35"""
 
-        await self.bot.say("Ask a mod for hints to the numbers, this one is impossible for to answer as a bot - Be angry at Tom for not giving me AI")
+        await self.bot.say("Abandon hope all ye who enter here")
 
     @commands.command()
     async def level36(self):
