@@ -12,17 +12,6 @@ class rgame:
     def __init__(self, bot):
         self.bot = bot
         self.client = discord.Client()
-
-    @commands.command()
-    async def levelgamma(self):
-        """Clue Level gamma"""
-
-        await self.bot.say("You once used this technique and now you will have to use it again")
-
-    @commands.command()
-    async def levelbeta(self):
-        """Clue Level beta"""
-        await self.bot.say("IDK, go bother <@307133814834987008>")
         
     @commands.command()
     async def level1(self):
@@ -113,6 +102,7 @@ class rgame:
         """Clue Level 14"""
 
         await self.bot.say("Review the first few levels. You may find there's a level you haven't been to yet.")
+        
 
     @commands.command()
     async def level15(self):
@@ -185,12 +175,6 @@ class rgame:
         """Clue Level 24"""
 
         await self.bot.say("The clue is american wow.")
-
-    @commands.command()
-    async def levelalpha(self):
-        """Clue Level alpha"""
-
-        await self.bot.say("https://cdn.discordapp.com/attachments/335895133805477889/436597671969554432/unknown.png")
 
     @commands.command()
     async def level25(self):
@@ -281,7 +265,30 @@ class rgame:
         """Clue Level 38"""
 
         await self.bot.say("Finish your level before looking at other levels")
+        
+    @commands.command()
+    async def levelalpha(self):
+        """Clue Level alpha"""
 
+        await self.bot.say("https://cdn.discordapp.com/attachments/335895133805477889/436597671969554432/unknown.png")
+        
+    @commands.command()
+    async def levelbeta(self):
+        """Clue Level beta"""
+        
+        await self.bot.say("IDK, go bother <@307133814834987008>")
+        
+    @commands.command()
+    async def levelgamma(self):
+        """Clue Level gamma"""
+
+        await self.bot.say("You once used this technique and now you will have to use it again")
+
+    @commands.command()
+    async def help(self):
+        """Help"""
+        
+        await self.bot.say("Use the command klevel[number] to get a hint for your level.")
 
 def setup(bot):
     bot.remove_command("help")
