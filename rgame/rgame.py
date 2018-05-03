@@ -92,7 +92,7 @@ class rgame:
         await self.bot.say("So far you've been advancing through time... Now you need to roll it back to 0.")
 
     @commands.command()
-    async def level0(self):
+    async def level?(self):
         """Clue Level ?"""
 
         await self.bot.say("It's a Übchi. The keyword is game.")
@@ -103,17 +103,18 @@ class rgame:
 
         await self.bot.say("Review the first few levels. You may find there's a level you haven't been to yet.")
         
-    @commands.command()
-    async def level01(self):
-        """Clue Level 1?"""
-
-        await self.bot.say("The clue is in the description of level 15.")
 
     @commands.command()
     async def level15(self):
         """Clue Level 15"""
 
         await self.bot.say("The date is one number off.")
+
+    @commands.command()
+    async def level??(self):
+        """Clue Level 1?"""
+
+        await self.bot.say("The clue is in the description of level 15.")
 
     @commands.command()
     async def level16(self):
@@ -140,7 +141,7 @@ class rgame:
         await self.bot.say("Secret Sauce")
 
     @commands.command()
-    async def levelI1(self):
+    async def level???(self):
         """Clue Level I6"""
 
         await self.bot.say("A gif is stickied - Look at it :thinking:")
