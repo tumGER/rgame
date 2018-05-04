@@ -150,7 +150,7 @@ class rgame:
     async def level20(self):
         """Clue Level 20"""
 
-        await self.bot.say("The clue is, Hard to hear with a picture of an empty vase.")
+        await self.bot.say("The clue is, Hard to h**ear** with a picture of an empty vase.")
 
     @commands.command()
     async def level21(self):
