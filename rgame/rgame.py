@@ -285,6 +285,12 @@ class rgame:
         await self.bot.say("You once used this technique and now you will have to use it again")
 
     @commands.command()
+    async def answer(self):
+        """OwO wat dis"""
+
+        await self.bot.say("https://cdn.discordapp.com/attachments/365038956783599617/367011950858731541/Oshit.mp3")
+
+    @commands.command()
     async def help(self):
         """Help"""
         
