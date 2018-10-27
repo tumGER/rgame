@@ -283,6 +283,13 @@ class rgame:
         """Clue Level gamma"""
 
         await self.bot.say("You once used this technique and now you will have to use it again")
+        
+        
+    @commands.command()
+    async def leveldelta(self):
+        """Clue Level delta"""
+
+        await self.bot.say("Woof")
 
     @commands.command()
     async def answer(self):
