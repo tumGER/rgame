@@ -303,8 +303,8 @@ class rgame:
         await self.bot.say("https://cdn.discordapp.com/attachments/365038956783599617/367011950858731541/Oshit.mp3")
 
     @commands.command()
-    async def levelepsilon(self):
-        """Clue Level epsilon"""
+    async def levela(self):
+        """Clue LevelA"""
 
         await self.bot.say("A hint once hated now your best friend :) \n ```sudo ❏```")    
         
